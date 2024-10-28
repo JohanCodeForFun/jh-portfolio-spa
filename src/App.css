@@ -4,7 +4,7 @@
   box-sizing: border-box;
 
   /* CSS HEX */
-  --eggshell: #f4f1deff;
+  --eggshell: rgb(255, 221, 0);
   --burnt-sienna: #e07a5fff;
   --delft-blue: #3d405bff;
   --cambridge-blue: #81b29aff;
