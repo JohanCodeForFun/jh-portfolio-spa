@@ -33,7 +33,7 @@ h1, h3 {
 }
 
 .navbar {
-  background-color: var(--delft-blue);
+  background-color: black;
   color: var(--eggshell);
   height: 3rem;
   display: flex;
