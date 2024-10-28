@@ -47,7 +47,7 @@ h1, h3 {
   gap: .5rem;
   color: black;
   height: 5rem;
-  background-color: yellow;
+  background-color: rgb(28, 28, 255);
 }
 
 ul > a > li {
