@@ -6,8 +6,8 @@ const Section2 = () => {
         <div className="img-card2">Image 2</div>
         <div className="img-card3">Image 3</div>
       </div>
-      <h1>Section 2</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum, in, vel sed quia ad culpa magni, quam quisquam repellendus quasi? At nemo perferendis distinctio amet, a iusto molestiae ex.</p>
+      <h1>Zoomba Class</h1>
+      <p>Zoomba instructions! Click for more info.</p>
   </div>
   )
 }
