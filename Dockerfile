@@ -1,5 +1,5 @@
 # Step 1: Use an official Node.js runtime as a parent image
-FROM node:14
+FROM node:14 AS build
 
 # Step 2: Set the working directory in the container
 WORKDIR /app
@@ -18,7 +18,7 @@ RUN npm run build
 
 # Step 7: Use an official Nginx image to serve the built app
 FROM nginx:alpine
-COPY --from=0 /app/build /usr/share/nginx/html
+COPY --from=build /app/dist /usr/share/nginx/html
 
 # Step 8: Expose port 80
 EXPOSE 80
